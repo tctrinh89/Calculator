@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 400px;
+  height: 100vh;
+  background-color: white;
+  /* margin-top:100px; */
+  /* padding-left: 20px; */
+  border: #eceaf1be 20px solid;
+  border-radius: 25px;
+}
+.header,.input,.buttons{
+  
+  /* flex-direction: column; */
+  width: 350px;
+  margin:10px;
+}
+.header{
+  background-color: white;
+  padding:15px 0 15px 0 ;
+}
+.input{
+  background-color: orange;
+  display: flex;
+
+}
+.input input{
+  height:40px;
+  background-color: orange;
+  border: none;
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.icon{
+  display: flex;
+  justify-content: flex-start;
+}
+.time{
+  /* display: flex;
+  justify-content: flex-end; */
+  margin-right: 20px;
+  float: right;
+}
+.button button{
+  width: 70px;
+  height: 70px;
+  margin: 0 20px 10px 20px;
+  border-radius: 25px;
+  justify-content: space-between;
+  background-color: #eceaf1be;
+  cursor: pointer;
+}
+
+.ketthuc{
+  display:block;
+  margin: auto;
+}
